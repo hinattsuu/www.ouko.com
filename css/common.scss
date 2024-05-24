@@ -1,0 +1,64 @@
+@font-face {
+  font-family: NotoSansJP;
+  src: url("../fonts/NotoSansJP-VariableFont_wght.ttf") format("TrueType");
+}
+@font-face {
+  font-family: Damion;
+  src: url("../fonts/Damion-Regular.ttf") format("TrueType");
+}
+@font-face {
+  font-family: MPLUS1Code;
+  src: url("../fonts/MPLUS1Code-VariableFont_wght.ttf") format("TrueType");
+}
+
+$--transition: 0.8s;
+$--easing: cubic-bezier(0.2, 1, 0.2, 1);
+
+:root {
+  html {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  body {
+    font-family: "NotoSansJP";
+  }
+}
+
+main {
+  section {
+    border-top: 1px solid #000;
+
+    .content__inner {
+      padding: 20px 40px;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.splide {
+  .splide__track {
+    overflow: visible;
+  }
+
+  .splide__slide {
+    transition: all $--transition $--easing;
+  }
+
+  .splide__slide:hover {
+    transform: translateY(-16px);
+  }
+}

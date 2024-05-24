@@ -1,0 +1,76 @@
+#header .header__flex {
+  justify-content: space-between;
+}
+#header .header__flex__ttl {
+  align-items: baseline;
+  padding: 15px;
+  font-family: "MPLUS1Code";
+}
+#header .header__ttl {
+  font-size: 2rem;
+}
+#header .header__subttl {
+  font-size: 0.8rem;
+  padding-left: 10px;
+}
+#header .entry__btn {
+  padding: 0px 15px;
+  text-align: center;
+  height: 25px;
+  display: flex;
+  border-radius: 9999px;
+  background: #000;
+  color: #fff;
+  font-size: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+  align-items: center;
+}
+#header:hover {
+  opacity: 0.8;
+}
+
+.hamburger__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  height: 25px;
+  justify-content: space-around;
+}
+.hamburger__menu span {
+  width: 30px;
+  height: 2px;
+  display: block;
+  background-color: #000;
+}
+
+.mainvisual__cnt {
+  position: relative;
+  padding: 20px 0;
+  text-align: left;
+}
+.mainvisual__cnt::after {
+  content: "Interview";
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  color: #fff;
+  font-size: 170px;
+  letter-spacing: 0.1em;
+  font-family: "Damion";
+  position: absolute;
+  right: 10px;
+  bottom: -70px;
+  rotate: -15deg;
+  z-index: 1;
+}
+.mainvisual__cnt .mainvisual__ttl__main {
+  font-size: 5rem;
+  font-family: "MPLUS1Code";
+}
+.mainvisual__cnt .mainvisual__ttl__sub {
+  font-size: 1.5rem;
+}
+.mainvisual__cnt .mainvisual__ttl__description {
+  font-size: 1rem;
+}/*# sourceMappingURL=style.css.map */
