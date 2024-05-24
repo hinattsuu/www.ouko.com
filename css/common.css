@@ -1,0 +1,49 @@
+@font-face {
+  font-family: NotoSansJP;
+  src: url("../fonts/NotoSansJP-VariableFont_wght.ttf") format("TrueType");
+}
+@font-face {
+  font-family: Damion;
+  src: url("../fonts/Damion-Regular.ttf") format("TrueType");
+}
+@font-face {
+  font-family: MPLUS1Code;
+  src: url("../fonts/MPLUS1Code-VariableFont_wght.ttf") format("TrueType");
+}
+:root html {
+  font-size: 16px;
+}
+:root h1 {
+  font-size: 1.6rem;
+}
+:root h2 {
+  font-size: 1.4rem;
+}
+:root a {
+  text-decoration: none;
+}
+:root body {
+  font-family: "NotoSansJP";
+}
+
+main section {
+  border-top: 1px solid #000;
+}
+main section .content__inner {
+  padding: 20px 40px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.splide .splide__track {
+  overflow: visible;
+}
+.splide .splide__slide {
+  transition: all 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+.splide .splide__slide:hover {
+  transform: translateY(-16px);
+}/*# sourceMappingURL=common.css.map */
