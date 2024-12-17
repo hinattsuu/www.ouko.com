@@ -39,4 +39,22 @@
   <?php include("./assets/common/footer.php"); ?>
 </body>
 
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ホーム",
+      "item": "https://www.ouko.com"
+    }, {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "メンバー紹介",
+      "item": "https://www.ouko.com/member"
+    }]
+  }
+</script>
+
 </html>
