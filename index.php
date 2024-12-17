@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
+<?php $YEAR = date("Y"); ?>
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>桜高バドミントンサークル</title>
-  <meta name="description" content="桜丘高校のバドミントンサークル公式ホームページです！創立4年を迎えました。" />
+  <meta name="description" content="桜丘高校のバドミントンサークル公式ホームページです！創立<?= $YEAR - 2019 ?>周年を迎えました。" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
   <link rel="stylesheet" href="./assets/css/recet.css">
   <link rel="stylesheet" href="./assets/css/common.css">
